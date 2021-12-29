@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.20)
+cmake_minimum_required(VERSION 3.18)
 
 file(GLOB SOURCE_FILES *.cpp)
 add_executable(formulae1_test
