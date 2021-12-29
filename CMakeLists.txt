@@ -14,10 +14,6 @@ add_subdirectory(submodule)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 set(ADDITIONAL_CXX_FLAGS_DEBUG_LIST
-  # Produce debugging information for GDB
-  -ggdb
-  # Apply debugging optimizations
-  -Og
   # Enable address sanitizer
   -fsanitize=address)
 string(JOIN " " ADDITIONAL_CXX_FLAGS_DEBUG ${ADDITIONAL_CXX_FLAGS_DEBUG_LIST})
